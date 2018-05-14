@@ -1,0 +1,13 @@
+.hgignore
+.hg
+build/*
+.DS_Store
+Notes.*
+*.class
+*.idea*
+tests/TestMaker
+*.tex
+*.aux
+*.log
+*.synctex.gz
+*.toc

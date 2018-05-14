@@ -1,0 +1,326 @@
+@font-face {
+    src:url("./fonts/Raleway-Light.ttf");
+}
+
+.title {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 40px;
+    -fx-line-height: 1; 
+    -fx-text-align: center; 
+}
+
+.title_small {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 30px;
+    -fx-line-height: 1; 
+    -fx-text-align: center;
+}
+
+.console {
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
+}
+
+.file_show {
+    -fx-border-width: 0 0 0 0.3;
+    -fx-min-width: 250;
+    -fx-max-width: 250;
+}
+
+.show_file_title {
+    -fx-border-width: 0 0 0.3 0;
+}
+
+.input {
+    -fx-border-width: 0 0 0.3 0;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color:black;
+}
+
+.check_box .box{
+    -fx-background-radius: 1;
+    -fx-border-width: 0.3;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-border-radius: 0;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.subtitle {
+    -fx-font-size: 20px;
+}
+
+.path_text {
+    -fx-font-size: 15px;
+}
+
+.text_small {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 14px;
+}
+
+.btn_main_menu {
+    -fx-font-family: 'Raleway';
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-border-width: 1px;
+    -fx-background-insets: 1;
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+    -fx-font-size: 16;
+    -fx-background-color: white;
+    -fx-text-fill: Black;
+    -fx-border-color: white;
+}
+
+.title_properties {
+    -fx-font-family: 'Raleway';
+    -fx-border-width: 0 0 0.3 0;
+    -fx-font-size: 20px;
+}
+
+.side_bar {
+    -fx-border-width: 0 0.3 0 0;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.side_bar .scroll-bar:horizontal,
+.side_bar .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.bottom_row {
+    -fx-border-width: 0.3 0 0 0;
+}
+
+.btn_manager {
+    -fx-border-width: 0.5;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+}
+
+.btn_manager:hover {
+    -fx-text-fill: white;
+}
+
+.text {
+    -fx-font-family: 'Raleway';
+}
+
+.color_button {
+    -fx-background-radius: 60;
+    -fx-border-width: 0.3;
+    -fx-border-color: black;
+    -fx-border-radius: 60;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-min-width: 20;
+    -fx-max-width: 20;
+}
+
+.file_show,
+.show_file_title,
+.title_properties,
+.bottom_row {
+    -fx-border-color: black;
+}
+
+.list_view .list-cell,
+.list_view,
+.layout {
+    -fx-background-color: white;
+    -fx-background-radius: 3;
+}
+
+.license_text {
+    -fx-font-family: 'Raleway';
+}
+
+.tab_pane .tab-header-area .tab-header-background{
+    -fx-background-color: white;
+    -fx-border-width: 0 0 0.3 0;
+    -fx-border-color: black;
+}
+
+.tab_pane .tab {
+    -fx-font-family: 'Raleway';
+    -fx-background-color: white;
+    -fx-border-width: 0.3 0.3 0 0.3;
+    -fx-border-radius: 5 5 0 0;
+    -fx-border-color: black;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.drag_and_drop {
+    -fx-font-family: 'Raleway';
+    -fx-border-radius: 2;
+    -fx-border-width: 0.3;
+    -fx-border-color: black;
+}
+
+#version_text {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 15;
+}
+
+#text_red {
+    -fx-text-fill: red;
+}
+
+#text_black {
+    -fx-text-fill: black;
+}
+
+#btn_back {
+    -fx-pref-width: 80;
+    -fx-pref-height: 10 !important;
+}
+
+#add_title {
+    -fx-border-width: 0 0 0.3 0;
+    -fx-border-color: black;
+    -fx-font-size: 28px;
+}
+
+#file_txt{
+    -fx-pref-width: 50;
+}
+
+#btn_add {
+    -fx-min-width: 10;
+    -fx-max-width: 10;
+    -fx-min-height: 10;
+    -fx-max-height: 10;
+    -fx-background-color: white;
+    -fx-border-width: 0;
+}
+
+#bottom_row {
+    -fx-border-width: 0.3 0 0 0;
+    -fx-border-color: black;
+}
+
+#btn_generate {
+    -fx-pref-width: 100;
+}
+
+#btn_manager_back {
+    -fx-pref-width: 80;
+}
+
+#btn_delete_element {
+    -fx-font-size: 14;
+    -fx-pref-width: 140;
+    -fx-pref-height: 20;
+}
+
+#sidebar_bottom_box {
+    -fx-border-color: black;
+    -fx-border-width: 0.3 0 0 0;
+}
+
+#btn_license {
+    -fx-font-size: 14;
+    -fx-padding: 0;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    -fx-min-width: 80;
+    -fx-max-width: 80;
+}
+
+#btn_delete {
+    -fx-min-height: 15;
+    -fx-max-height: 15;
+    -fx-min-width: 15;
+    -fx-max-width: 15;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#tests_file_list {
+    -fx-border-width: 0.3px;
+    -fx-border-color: black;
+}
+
+#btn_toggle_sidebar {
+    -fx-pref-width: 10;
+}
+
+#color_blue{
+    -fx-background-color: #1caaec;
+}
+
+#color_blue:hover {
+    -fx-background-color: #1688bd;
+}
+
+#color_orange{
+    -fx-background-color: #ecaa1c;
+}
+
+#color_orange:hover {
+    -fx-background-color: #af7f16;
+}
+
+#color_green {
+    -fx-background-color: #20c91a;
+}
+
+#color_green:hover {
+    -fx-background-color: #1baf16;
+}
+
+#btn_settings {
+    -fx-min-height: 5;
+    -fx-max-height: 5;
+    -fx-min-width: 5;
+    -fx-max-width: 5;
+}
+
+#recents_title {
+    -fx-border-width: 0 0 0.3 0;
+    -fx-font-size: 16;
+    -fx-padding: 5 0 0 0;
+}
+
+#project_path {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 10;
+}
+
+#project_name {
+    -fx-font-family: 'Raleway';
+    -fx-font-size: 15;
+}
+
+#manager_pane {
+    -fx-border-width: 0 0.3 0 0;
+}
+
+#btn_generate_tests {
+    -fx-pref-width: 140px;
+}
+
+#title_tests {
+    -fx-border-width: 0 0 0.3 0;
+    -fx-border-color: black;
+}
+
+#recents_title,
+#manager_pane,
+#input_black {
+    -fx-border-color: black;
+}
+
+#input_red {
+    -fx-border-color: red;
+}

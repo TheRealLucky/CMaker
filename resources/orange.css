@@ -1,0 +1,18 @@
+.btn_main_menu:hover,
+.btn_main_menu:focused {
+    -fx-text-fill: #ecaa1c;
+}
+
+.input:focused,
+.check_box:focused .box {
+    -fx-border-color: #ecaa1c;
+}
+
+.list_view .list-cell:focused, 
+.list_view .list-cell:selected {
+    -fx-background-color: #ecaa1c;
+}
+
+.tab:selected .tab-label{
+    -fx-text-fill: #ecaa1c;
+}
